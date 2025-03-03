@@ -5,7 +5,8 @@ This is a parallel algorithm that computes the temperature in a steady state of 
 mpicc -Wall -o steady steady.c
 
 ### Usage 
-mpirun \[MPI options\] steady <plate> <row> <column>
+mpirun \[MPI options\] steady \<plate\> \<row\> \<column\>
+
 The user must supply a pathname of a text file that consists of six numbers in the following order, separated by
 white space:
     – an integer representing the number of rows in the grid
